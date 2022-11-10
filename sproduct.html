@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import font awesome Liberary -->
+  <!-- <link rel="stylesheet" href="all.css"> -->
+
+  <script src="https://kit.fontawesome.com/5ef60b71ad.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Shop</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt="Logo Image"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i class="fa-solid fa-bars" id="bar"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- products Details Section -->
+  <section id="prodetails" class="section-p1">
+    
+    <!-- Single Image  -->
+    <div class="single-pro-image">
+      <img src="img/products/f1.jpg" alt="" id="mainImg">
+      <div class="small-img-group">
+        <div class="small-img-col">
+          <img src="img/products/f1.jpg" alt="" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/products/f2.jpg" alt="" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/products/f3.jpg" alt="" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="img/products/f4.jpg" alt="" class="small-img">
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="single-pro-details">
+      <h6>Home / T-Shirt</h6>
+      <h4>Men's Fashion T-Shirts Collections</h4>
+      <h2>$78.00</h2>
+      <select>
+        <option>Select Size</option>
+        <option>XXL</option>
+        <option selected>XL</option>
+        <option>Large</option>
+        <option>Meduim</option>
+        <option>Small</option>
+      </select>
+      <input type="number" value="1" min="1">
+      <button class="normal">Add To Cart</button>
+      <h4>Product Details</h4>
+      <span>
+        Portray your product in a way that sounds appealing to the customer and will help them decide if they should buy it. Use descriptive, compelling, and creative words to write about the product's features and benefits. Also, tell a compelling story about why the t-shirt is worth purchasing
+        Shirting fabric is a kind of primarily cotton or cotton blend cloth used to make shirts. These fabrics should be breathable, durable, pleasant to the touch, and comfortable to wear all year round. That is why high thread count and yarn dyed structure are the essential features of shirting fabrics.
+      </span>
+    </div>
+
+  </section>
+
+  <!-- Featured Products Section -->
+  <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>New Summer Collection Arrivals</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" alt="">
+          <div class="des">
+            <span>Zara</span>
+            <h5>Basic Light-blue Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$76</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n2.jpg" alt="">
+          <div class="des">
+            <span>H&M</span>
+            <h5>Caroo Nice Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$76</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n3.jpg" alt="">
+          <div class="des">
+            <span>Zara</span>
+            <h5>Snow White Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$90</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n4.jpg" alt="">
+          <div class="des">
+            <span>Zain</span>
+            <h5>Battern Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$50</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+        </div>
+      </div>
+  </section>
+
+  <!-- NewSletter Section -->
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+      <input type="email" name="email" placeholder="Your email address" autocomplete="email">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="section-p1">
+
+    <!-- Contact Links -->
+    <div class="col">
+      <img src="img/logo.png" alt="Logo Image" class="logo">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong>49 Talkha Road, Street 23, Mansoura </p>
+      <p><strong>Phone: </strong>(+20)0 100 475 8482 / (+20)0 100 252 1911</p>
+      <p><strong>Hours: </strong>10:00 - 18:00 Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+   </div>
+
+   <!-- About Links -->
+   <div class="col">
+    <h4>About</h4>
+    <a href="">About Us</a>
+    <a href="">Delivery Informations</a>
+    <a href="">Terms & Conditions</a>
+    <a href="">Contact Us</a>
+   </div>
+
+   <!-- Account Links -->
+   <div class="col">
+    <h4>My Account</h4>
+    <a href="">Sign IN</a>
+    <a href="">View Cart</a>
+    <a href="">My Wishlists</a>
+    <a href="">Track My Order</a>
+    <a href="">Help</a>
+   </div>
+
+   <!-- Install app Links -->
+   <div class="col install">
+    <h4>Install App</h4>
+    <p>From App Store and Google Play</p>
+    <div class="row">
+      <img src="img/pay/app.jpg" alt="">
+      <img src="img/pay/play.jpg" alt="">
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img src="img/pay/pay.png" alt="">
+   </div>
+
+   <!-- Copyright Links -->
+   <div class="copyright">
+    <p>&copy; 2022 Ahmed Abdalazeem E-Commerce Website</p>
+   </div>
+
+  </footer>
+
+  <script>
+
+    // Function to change products photos in single product secion "Page"
+    const mainImg = document.getElementById("mainImg");
+
+    const smallImg = document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick = function(){
+      mainImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function(){
+      mainImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function(){
+      mainImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function(){
+      mainImg.src = smallImg[3].src;
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

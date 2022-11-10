@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import font awesome Liberary -->
+  <!-- <link rel="stylesheet" href="all.css"> -->
+
+  <script src="https://kit.fontawesome.com/5ef60b71ad.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Cart</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt="Logo Image"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+      </ul>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i class="fa-solid fa-bars" id="bar"></i>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Hero Page -->
+  <section id="page-header" class="about-header cart">
+    <h2>#Cart</h2>
+    <p>Add Your Coupon Code & Save Up to 70% !</p>
+  </section>
+
+  <!-- Products In Cart Table Section -->
+  <section id="cart" class="section-p1">
+    <table>
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="fa-solid fa-circle-minus"></i></a></td>
+          <td><img src="img/products/f1.jpg" alt=""></td>
+          <td>Astronut Shirt</td>
+          <td>$78</td>
+          <td><input type="number" name="" id="" value="1" min="1"></td>
+          <td>$78</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fa-solid fa-circle-minus"></i></a></td>
+          <td><img src="img/products/f2.jpg" alt=""></td>
+          <td>Colorful Shirt</td>
+          <td>$70</td>
+          <td><input type="number" name="" id="" value="3" min="1"></td>
+          <td>$210</td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fa-solid fa-circle-minus"></i></a></td>
+          <td><img src="img/products/f3.jpg" alt=""></td>
+          <td>Tree Leaves Shirt</td>
+          <td>$65</td>
+          <td><input type="number" name="" id="" value="2" min="1"></td>
+          <td>$130</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Cart Add Section -->
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+      </div>
+    </div>
+    <div id="subtotal">
+      <h3>Cart Totals</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>$418</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr>
+          <td><strong>Total<strong></td>
+          <td><strong>$418</strong></td>
+        </tr>
+      </table>
+      <button class="normal">Proceed To Checkout</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="section-p1">
+
+    <!-- Contact Links -->
+    <div class="col">
+      <img src="img/logo.png" alt="Logo Image" class="logo">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong>49 Talkha Road, Street 23, Mansoura </p>
+      <p><strong>Phone: </strong>(+20)0 100 475 8482 / (+20)0 100 252 1911</p>
+      <p><strong>Hours: </strong>10:00 - 18:00 Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <a href="https://www.facebook.com/profile.php?id=100029766133935" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/__ahmedabdalazeem__?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+          <a href="https://twitter.com/AhmedAb86712416" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/ahmed-abdalazeem-226524228/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/AhmedAbdalazeem49" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+   </div>
+
+   <!-- About Links -->
+   <div class="col">
+    <h4>About</h4>
+    <a href="about.html">About Us</a>
+    <a href="">Delivery Informations</a>
+    <a href="">Terms & Conditions</a>
+    <a href="contact.html">Contact Us</a>
+   </div>
+
+   <!-- Account Links -->
+   <div class="col">
+    <h4>My Account</h4>
+    <a href="">Sign IN</a>
+    <a href="cart.html">View Cart</a>
+    <a href="cart.html">My Wishlists</a>
+    <a href="">Track My Order</a>
+    <a href="contact.html">Help</a>
+   </div>
+
+   <!-- Install app Links -->
+   <div class="col install">
+    <h4>Install App</h4>
+    <p>From App Store and Google Play</p>
+    <div class="row">
+      <img src="img/pay/app.jpg" alt="">
+      <img src="img/pay/play.jpg" alt="">
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img src="img/pay/pay.png" alt="">
+   </div>
+
+   <!-- Copyright Links -->
+   <div class="copyright">
+    <p>&copy; 2022 Ahmed Abdalazeem E-Commerce Website</p>
+   </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
